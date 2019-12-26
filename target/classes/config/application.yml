@@ -5,8 +5,8 @@ mail:
     starttlsEnable: true
     host: smtp.gmail.com
     port: 587
-    username: stonebstonesteel@gmail.com
-    password: dimtwo4748!
+    username: 
+    password: 
     protocol: smtp
     senderName: Test Test
     senderEmail: stonebstonesteel@gmail.com
