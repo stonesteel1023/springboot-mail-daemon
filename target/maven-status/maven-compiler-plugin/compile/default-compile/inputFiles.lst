@@ -1,0 +1,9 @@
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\constants\EmailConstant.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\JavaMailSenderApp.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\utils\SimpleMailSender.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\controller\EmailController.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\service\impl\EmailServiceImpl.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\settings\EmailSetting.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\config\EmailConfig.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\resources\EmailDto.java
+D:\Spring-boot-mail\src\main\java\com\demo\javamail\service\EmailService.java

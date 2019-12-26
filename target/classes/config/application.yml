@@ -1,0 +1,12 @@
+#smtp mail properties
+mail:
+  smtp:
+    auth: true
+    starttlsEnable: true
+    host: smtp.gmail.com
+    port: 587
+    username: stonebstonesteel@gmail.com
+    password: dimtwo4748!
+    protocol: smtp
+    senderName: Test Test
+    senderEmail: stonebstonesteel@gmail.com

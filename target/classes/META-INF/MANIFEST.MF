@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: javamail
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: com
+Implementation-Vendor-Id: com.test.javamail
+Build-Jdk: 1.8.0_162
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/javamail
+Created-By: Maven Integration for Eclipse
+
