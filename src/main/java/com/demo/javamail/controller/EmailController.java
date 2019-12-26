@@ -23,7 +23,7 @@ public class EmailController {
     @GetMapping("/send")
     public void sendEmail() {
 	EmailDto emailDto = new EmailDto();
-	emailDto.setReceiverEmail("stonebstonesteel@gmail.com");
+	emailDto.setReceiverEmail("test@gmail.com");
 	emailDto.setReceiverName("Novice Geeker");
 	emailDto.setSubject("Test email");
 	emailDto.setMessage("Have a nice day!!!");
