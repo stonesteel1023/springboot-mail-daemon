@@ -5,6 +5,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
+application.yml
 local.properties
 .settings/
 .loadpath
