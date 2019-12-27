@@ -2,6 +2,7 @@ package com.demo.javamail.service.impl;
 
 import com.demo.javamail.resources.EmailDto;
 import com.demo.javamail.service.EmailService;
+import com.demo.javamail.service.EmailService;
 import com.demo.javamail.utils.SimpleMailSender;
 import org.junit.Before;
 import org.junit.Test;
@@ -29,12 +30,12 @@ public class EmailServiceImplTest {
 
     @Before
     public void setUp() {
-        emailService = new EmailServiceImpl(simpleMailSender);
-        emailDto = new EmailDto();
-        emailDto.setReceiverEmail("stonesteel84@gmail.com");
-        emailDto.setReceiverName("Test tst");
-        emailDto.setSubject("test");
-        emailDto.setMessage("Hello test");
+        emailService = new EmailService(simpleMailSender);
+        emailDto = new EmailDto("1","Test tst","test@gmail.com","test","Hello test","2019-12-27","tester");
+//        emailDto.setReceiverEmail();
+//        emailDto.setReceiverName();
+//        emailDto.setSubject("test");
+//        emailDto.setMessage("Hello test");
         Mockito.doNothing().when(simpleMailSender).sendEmail(emailDto);
         Mockito.doThrow(RuntimeException.class).when(simpleMailSender).sendEmail(null);
     }
